@@ -28,7 +28,7 @@ This module creates:
 
 ```hcl
 module "webhook_repeater" {
-  source = "github.com/apollorion/repeater"
+  source = "github.com/theoutdoorprogrammer/repeater"
 
   name = "github"  # Used in resource naming
   webhook_endpoint = "https://internal-service.example.com/webhooks/receive"
